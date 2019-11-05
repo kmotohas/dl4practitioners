@@ -1,0 +1,3 @@
+curl -F image=@bag_gray.jpg \
+    -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJTa2lsVXNlciIsInN1YiI6IntcInVzZXJJZFwiOlwiYWRtaW5cIixcInVzZXJOYW1lXCI6XCJhZG1pblwiLFwicm9sZVwiOlwiYWRtaW5cIixcInNjb3BlXCI6XCJhZG1pblwifSIsImlzcyI6IlNraWxBdXRoTWFuYWdlciIsImV4cCI6MTU4NzAwMDA1MiwiaWF0IjoxNTU1NDY0MDUyfQ.nPF-C6piv4nq0uP6ag9_Y2enHVFdB46lGuUnCqZT2CQ" \
+    "http://52.15.103.124:9008/endpoints/fashionmnist/model/fashionmnist/default/predictimage"

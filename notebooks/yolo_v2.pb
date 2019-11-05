@@ -1,0 +1,1 @@
+<html><body>You are being <a href="https://media.githubusercontent.com/media/deeplearning4j/dl4j-test-resources/4fbca7f8286b7e0856903828193f50c08ceb1cee/src/main/resources/tf_graphs/examples/yolov2_608x608/frozen_model.pb">redirected</a>.</body></html>
