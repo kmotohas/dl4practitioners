@@ -64,7 +64,14 @@ highlightTheme: "monokai"
 
 ### Booking.com
 
-<!-- スクショ貼る -->
+<div class="grid-2x1">
+ <img src="20191118/booking.png"/>
+ <p align="left">
+ (a) <br>
+ (b) <br>
+ (c) 
+ </p>
+</div>
 
 --
 
