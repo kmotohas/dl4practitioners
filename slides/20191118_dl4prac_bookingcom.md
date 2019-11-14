@@ -24,6 +24,20 @@ highlightTheme: "monokai"
     .reveal ul li {
         font-size: 75%;
     }
+    .reveal section img {
+        border: none;
+        box-shadow: none;
+    }
+    .reveal .grid-2x1 {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        margin: auto;
+        grid-column-gap: 5%;
+        grid-template-columns: 40% 40%;
+    }
 </style>
 
 <!-- 発表時間目安30分+質問10分 -->
@@ -64,9 +78,29 @@ highlightTheme: "monokai"
 
 ### Booking.comで用いられているモデル
 
-<!-- -->
+>- 旅行者の好みを幅広く予測
+>- 旅行の文脈を予測
+>- 履歴などからユーザーの見た内容をトラッキング
+>- UIを最適化
+>- レビューを始めとするコンテンツを集めてどれを表示するか
+>- 価格やオプションのトレンド
 
 --
+
+### 具体例
+
+<!-- Figure 1 -->
+
+<div class="grid-2x1">
+ <img src="20191118/fig1.png"/>
+ <p align="left">
+ (a) <br>
+ (b) <br>
+ (c) 
+ </p>
+</div>
+
+---
 
 ### 6つのレッスン
 
@@ -81,9 +115,13 @@ highlightTheme: "monokai"
 
 ### 2.2 All model families can provide value:
 
+<!-- Figure 2 -->
+
 --
 
 ### 3. Modeling: Offline Model Performance is just a Health Check
+
+<!-- Figure 3 -->
 
 --
 
@@ -93,14 +131,28 @@ highlightTheme: "monokai"
 
 ### 5. Deployment: Time is Money
 
+<!-- Figure 6 -->
+
 -- 
 
 ### 6. Monitoring: Unsupervised Red Flags
+
+<!-- Figure 7 -->
 
 --
 
 ### 7. Evaluation: Experiment Design Sophistication Pays Off
 
+<!-- Figure 8 -->
+
+--
+
+### Rdandomized Controlled Trials
+
+RCT
+
 --
 
 ### まとめ
+
+- 以前から言われている内容も多いが、実際のサービスで検証してくれたのは大きい
