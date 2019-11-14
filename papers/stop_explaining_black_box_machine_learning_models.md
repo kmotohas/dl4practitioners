@@ -1,4 +1,5 @@
 # Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead
+
 https://arxiv.org/abs/1811.10154
 
 （実際読んだのはthe morning paperの解説記事 https://blog.acolyer.org/2019/10/28/interpretable-models/）
