@@ -35,8 +35,8 @@ highlightTheme: "monokai"
         align-items: center;
         justify-items: center;
         margin: auto;
-        grid-column-gap: 5%;
-        grid-template-columns: 40% 40%;
+        grid-column-gap: 0%;
+        grid-template-columns: 45% 45%;
     }
 </style>
 
@@ -55,29 +55,33 @@ highlightTheme: "monokai"
 
 ### どんな論文か
 
-- 世界最大のオンライン旅行サイト Booking.com における約150の機械学習アプリ開発経験から学んだベストプラクティスの紹介
-- 
+<div class="grid-2x1">
+ <img src="20191118/booking.png"/>
+ <ul>
+  <li> 世界最大のオンライン旅行サイト Booking.com における約150の機械学習アプリ開発経験から学んだベストプラクティスの紹介 </li>
+  <ul>
+  <li> 使われているモデル </li>
+  <li> モニタリング </li>
+  <li> レイテンシー </li>
+  <li> A/Bテスト </li>
+  </ul>
+ </ul>
+</div>
 
 ※ [Gigazineの記事](https://gigazine.net/amp/20191009-machine-learning-booking-com)でだいたいわかる
 
---
 
-### Booking.com
-
-<div class="grid-2x1">
- <img src="20191118/booking.png"/>
- <p align="left">
- (a) <br>
- (b) <br>
- (c) 
- </p>
-</div>
 
 --
 
 ### 課題
 
-- a
+- High Stakes
+- Infinitesimal Queries
+- Complex Items
+- Constrained Supply
+- Continuous Cold Start
+- Content Overload
 
 <!-- -->
 
