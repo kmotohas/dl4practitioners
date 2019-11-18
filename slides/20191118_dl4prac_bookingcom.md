@@ -158,7 +158,7 @@ highlightTheme: "monokai"
 
 --
 
-### Rdandomized Controlled Trials
+### Randomized Controlled Trials
 
 RCT
 

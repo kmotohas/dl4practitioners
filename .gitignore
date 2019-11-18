@@ -2,5 +2,4 @@
 event_*_participants.csv
 Icon*
 .ipynb_checkpoints
-*.key
 usage-cost-stream-rabbit-0.0.1-SNAPSHOT
