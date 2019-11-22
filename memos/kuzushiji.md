@@ -23,3 +23,12 @@ https://www.kaggle.com/c/kuzushiji-recognition/discussion
 - 3rd place solution by Kenji
     - discussion: 
         - https://www.kaggle.com/c/kuzushiji-recognition/discussion/113049#latest-675402
+- 5th place solution by See---
+    - discussion:
+        - https://www.kaggle.com/c/kuzushiji-recognition/discussion/112771#latest-675692
+    - code:
+        - https://github.com/see--/kuzushiji-recognition
+    - weights:
+        - https://github.com/see--/kuzushiji-recognition/releases
+    - FW: PyTorch
+    - model: custumized CenterNet
