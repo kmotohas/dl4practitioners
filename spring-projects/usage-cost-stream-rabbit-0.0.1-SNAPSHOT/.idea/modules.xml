@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/usage-cost-logger/usage-cost-logger-rabbit.iml" filepath="$PROJECT_DIR$/usage-cost-logger/usage-cost-logger-rabbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usage-cost-processor/usage-cost-processor-rabbit.iml" filepath="$PROJECT_DIR$/usage-cost-processor/usage-cost-processor-rabbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usage-cost-stream-rabbit.iml" filepath="$PROJECT_DIR$/usage-cost-stream-rabbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usage-detail-sender/usage-detail-sender-rabbit.iml" filepath="$PROJECT_DIR$/usage-detail-sender/usage-detail-sender-rabbit.iml" />
+    </modules>
+  </component>
+</project>
