@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.messaging.Source;
-import org.springframework.messaging.support.MessageBuilder;
+import org.springframework.integration.support.MessageBuilder;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 
@@ -20,6 +20,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 
 @EnableScheduling
 @EnableBinding(Source.class)
@@ -49,10 +50,10 @@ public class WebcamImageSender {
     public void webcam() throws IOException {
         Frame frame = grabber.grab();
         BufferedImage image = Java2DFrameUtils.toBufferedImage(frame);
-        String payload = new String(Base64.encodeBase64(imageToBytes(resize(image, properties.getWidth(), properties.getHeight()))), "ASCII");
-        ImageEntity imageEntity = new ImageEntity(payload);
+        String payload = new String( Base64.encodeBase64(imageToBytes(
+                        resize(image, properties.getWidth(), properties.getHeight()))), StandardCharsets.US_ASCII);
         logger.debug(payload.substring(0, 80) + "...");
-        this.source.output().send(MessageBuilder.withPayload(imageEntity).build());
+        this.source.output().send(MessageBuilder.withPayload(payload).build());
     }
 
     private byte[] imageToBytes(BufferedImage bufferedImage) throws IOException {

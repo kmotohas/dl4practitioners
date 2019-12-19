@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>image-viewer</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <img src="/tmp/annotated_images/annotated.jpg" name="webcam"><br>（<span id="update"></span>更新）/>
+    <!--img src="data:image/jpg;base64, /tmp/annotated_images/annotated.jpg" name="webcam" /-->
+    <!--img src="data:image/jpg;base64,<?php echo file_get_content('/tmp/annotated_images/annotated.jpg');?>" /-->
+    <!--p><?php echo $a;?></!--p-->
+    <script type="text/javascript">
+        cam = new Image();
+        cam.src = document.webcam.src;
+        webcamTimer(); //*1
+
+        function webcamTimer() {
+            var now = new Date();
+            document.webcam.src = cam.src + "?" + now.getTime(); //*2;
+            //document.getElementById("update").innerHTML = now.getHours() + "時" + now.getMinutes() + "分"; //*3
+            setTimeout("webcamTimer()", 1000); //*4
+        }
+        //document.getElementById('file-sample').addEventListener('change', function (e) {
+        // 1枚だけ表示する
+        //var file = e.target.files[0];
+
+        // ファイルのブラウザ上でのURLを取得する
+        //var blobUrl = window.URL.createObjectURL(file);
+
+        // img要素に表示
+        //var img = document.getElementById('file-preview');
+        //img.src = '/tmp/annotated_images/annotated.jpg';
+        //});
+    </script>
+
+
+</body>
+
+
+</html>

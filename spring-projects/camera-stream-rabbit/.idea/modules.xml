@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/camera-stream-rabbit.iml" filepath="$PROJECT_DIR$/.idea/camera-stream-rabbit.iml" />
       <module fileurl="file://$PROJECT_DIR$/webcam-image-logger/webcam-image-logger-rabbit.iml" filepath="$PROJECT_DIR$/webcam-image-logger/webcam-image-logger-rabbit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webcam-image-sender/webcam-image-sender.iml" filepath="$PROJECT_DIR$/webcam-image-sender/webcam-image-sender.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webcam-image-viewer-rabbit/webcam-image-viewer-rabbit.iml" filepath="$PROJECT_DIR$/webcam-image-viewer-rabbit/webcam-image-viewer-rabbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-image-sender/webcam-image-sender-rabbit.iml" filepath="$PROJECT_DIR$/webcam-image-sender/webcam-image-sender-rabbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcam-image-viewer/webcam-image-viewer-rabbit.iml" filepath="$PROJECT_DIR$/webcam-image-viewer/webcam-image-viewer-rabbit.iml" />
     </modules>
   </component>
 </project>
