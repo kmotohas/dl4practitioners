@@ -3,4 +3,5 @@ event_*_participants.csv
 Icon*
 .ipynb_checkpoints
 slides/20191118_intro.pptx
-targets
+target
+system_core.dic
